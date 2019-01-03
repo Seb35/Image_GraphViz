@@ -212,7 +212,7 @@ class Image_GraphViz
     function Image_GraphViz($directed = true, $attributes = array(),
                             $name = 'G', $strict = true, $returnError = false)
     {
-        self::__construct($directed, $attributes, $name, $strinct, $returnError);
+        self::__construct($directed, $attributes, $name, $strict, $returnError);
     }
 
     /**
